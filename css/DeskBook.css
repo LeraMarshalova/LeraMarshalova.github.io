@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+h1{
+    color: white;
+    font-size: 55px;
+	font-family: 'Comfortaa', cursive;
+}
+h2{
+    color: white;
+    font-size: 35px;
+	font-family: 'Comfortaa', cursive;
+}
+h3{
+    color: white;
+    font-size: 29px;
+	font-family: 'Comfortaa', cursive;
+}
+body{
+	background-image: url("../img/background.jpg");
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+	color: white;
+}
+p{
+    font-family: 'Comfortaa', cursive;
+}
+footer{
+	font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+	color: white;
+}
+
+
+
+/*Ссылки*/
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+
+
+
+/*Таблица*/
+td{
+    width: 50px;
+    height: 80px;
+}
+
+ 
+ 
+/*Подсветка текста*/
+.warn{
+    padding: 1%;
+    transition-duration: 0.1s;
+    border-radius: 10px;
+    text-align: center;
+}
+.warn:hover{
+    background: grey;
+	text-decoration: underline;
+}
+
+
+
+/*Анимация картинок*/
+.htmlImg{
+	width: 15%;
+	float: left;
+}
+.cssImg{
+	width: 15%;
+	float: right;
+}
+
+.htmlImg:hover{
+	width: 18%;
+	filter: brightness(40%);
+}
+.cssImg:hover{
+	width: 19%;
+	filter: brightness(40%);
+}
+
+
+
+/*Подвал*/
+.copyright{
+	float: right;
+}
+
+
+
+/*HTML/CSS img*/
+.floatHtml1{
+	float: right;
+	margin: 1%;
+}
+.floatHtml2{
+	float: left;
+	margin: 1%;
+}
+
+.floatCss1{
+	float: right;
+	margin: 1%;
+}
+.floatCss2{
+	float: left;
+	margin: 1%;
+}
+
+
+
+/*Описания html и css на главной*/
+.textMain{
+	width: 60%;
+}
+
+
+
+/*Sections&Articles*/
+.sections{
+	width: 50%;
+	float: left;
+}
+.addArticles{
+	width: 50%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
